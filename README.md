@@ -40,5 +40,32 @@ Y esto es lo que se verá por pantalla:
 <br>
 <img src="https://user-images.githubusercontent.com/71872946/171822563-f2538e7f-9873-4136-ad9b-829b6cf2973d.png">
 <br><br>
-
+<h3>Captura de eventos</h3>
+Pasamos a la captura de eventos:<br> 
+Vuelvo a modificar <i>app.components.ts</i>:
+<br><br>
+<img src="https://user-images.githubusercontent.com/71872946/171824724-3c62d987-7c80-44ed-8d58-2c949285f328.png">
+<br>
+Y de nuevo el <i>app.components.html</i>:
+<br><br>
+<img src="https://user-images.githubusercontent.com/71872946/171825563-bb91938a-1372-4586-a5ed-b6174cf392f0.png">
+<br>
+Quedará una cosa así, en la que el botón de sumar va sumando de uno en uno, y el de restar va sumando de uno en uno:
+<br><br>
+<img src="https://user-images.githubusercontent.com/71872946/171826336-0e4b5301-4f0d-4499-a136-e18aba23603e.png">
+<br>
+<h3>Directiva ngModel</h3>
+Para utilizarla, es necesario importar primero la clase <i>'FormsModule'</i> en <i>'app.module.ts'</i> y especificarla en la propiedad <i>'imports'</i>:
+<br>
+<img src="https://user-images.githubusercontent.com/71872946/171828948-e7171207-ecd4-4f15-993e-c8880b37be1d.png">
+<br>
+Y en el html:
+<br><br>
+<img src="https://user-images.githubusercontent.com/71872946/171830220-d5930605-e2f8-4e49-93c3-8f1d78b1bbaa.png">
+<br>
+Por último, la pantalla se verá de forma que lo que yo escriba en el input será lo que se muestre justo debajo. Algo así:
+<br><br>
+<img src="https://user-images.githubusercontent.com/71872946/171830994-9fd11f5e-88e7-4c8d-be6a-60ea1255a213.png">
+<br>
+Y finish :)
 
