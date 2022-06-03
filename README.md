@@ -15,3 +15,21 @@ Ahora ya estoy lista para volver a <i>app.components.html</i> y comprobar que ef
 Una vez hecho esto, ya se puede acceder a la visualización del proyecto, desde <i>localhost:4200</i>:
 <br><br>
 <img src="https://user-images.githubusercontent.com/71872946/171813483-b8720166-19c8-4b0e-923a-491dbfb8d631.png">
+<br>
+Una vez hecho esto, procedo a implementar nuevos datos en el modelo de datos:
+<br><br>
+<img src="https://user-images.githubusercontent.com/71872946/171817985-2e95aab5-9f5e-48ba-9860-61f55f505f08.png">
+<br>
+Y aquí mismo, debajo, añado varios métodos:
+<br><br>
+<img src="https://user-images.githubusercontent.com/71872946/171818090-8dfacba4-7902-4c60-8035-e73aec2c8b80.png">
+<br>
+Y ahora ha llegado el momento de organizar la forma en que se van a mostrar los datos. Para ello, voy a volver a app.component.html:
+<br><br>
+<img src="https://user-images.githubusercontent.com/71872946/171819103-06616e9b-b213-443e-8b79-5730cd5ce471.png">
+<br>
+Así es como se verá por pantalla:
+<br><br>
+<img src="https://user-images.githubusercontent.com/71872946/171819584-b2e8b740-e59f-43ac-af5f-a25361473a69.png">
+<br>
+
