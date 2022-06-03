@@ -32,4 +32,13 @@ Así es como se verá por pantalla:
 <br><br>
 <img src="https://user-images.githubusercontent.com/71872946/171819584-b2e8b740-e59f-43ac-af5f-a25361473a69.png">
 <br>
+Ahora voy a modificar de nuevo el archivo app.component.html:
+<br><br>
+<img src="https://user-images.githubusercontent.com/71872946/171822350-ee5c3e1c-1b13-4e59-afab-9ad93e6d509b.png">
+<br>
+Y esto es lo que se verá por pantalla:
+<br>
+<img src="https://user-images.githubusercontent.com/71872946/171822563-f2538e7f-9873-4136-ad9b-829b6cf2973d.png">
+<br><br>
+
 
