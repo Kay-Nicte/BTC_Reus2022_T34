@@ -1,0 +1,20 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<h1 style="text-align:center;">
+    Bienvenido al {{ title }}
+</h1>
+<hr>
+<div>
+    <p>Ingrese nombre <input type="text" [(ngModel)]="nombre"></p>
+    <p>Ingrese apellido <input type="text" [(ngModel)]="apellido"></p>
+    <p>Nombre completo:{{nombre}},{{apellido}}</p>
+</div>
+
+<router-outlet></router-outlet>
