@@ -1,0 +1,35 @@
+<div class="container-fluid">
+    <div class="calculadora">
+        <div class="row-fluid">
+            <input type="text" id="pantalla" name="pantalla" [(ngModel)]="pantalla" maxlength="20" value="0" class="caja" readonly="true" placeholder="0">
+            <div class="calculator-keys">
+
+                <button type="button" id="Dividir" name="Dividir" class="btn btn-primary waves-effect boton funcion" onclick="operar(4)">/</button>
+                <button type="button" id="Multiplicar" name="Multiplicar" class="btn btn-primary boton funcion" onclick="operar(3)">*</button>
+                <button type="button" id="Restar" name="Restar" class="btn btn-primary boton funcion" onclick="operar(2)">-</button>
+                <button type="button" id="Sumar" name="Sumar" class="btn btn-primary boton funcion" onclick="operar(1)">+</button>
+
+                <button type="button" id="1" name="1" class="btn btn-secondary boton" (click)="uno()">1</button>
+                <button type="button" id="2" name="2" class="btn btn-secondary boton" (click)="dos()">2</button>
+                <button type="button" id="3" name="3" class="btn btn-secondary boton" (click)="tres()">3</button>
+                <button type="button" id="4" name="4" class="btn btn-secondary boton" (click)="cuatro()">4</button>
+                <button type="button" id="5" name="5" class="btn btn-secondary boton" (click)="cinco()">5</button>
+                <button type="button" id="6" name="6" class="btn btn-secondary boton" (click)="seis()">6</button>
+                <button type="button" id="7" name="7" class="btn btn-secondary boton" (click)="siete()">7</button>
+                <button type="button" id="8" name="8" class="btn btn-secondary boton" (click)="ocho()">8</button>
+                <button type="button" id="9" name="9" class="btn btn-secondary boton" (click)="nueve()">9</button>
+                <button type="button" id="0" name="0" class="btn btn-secondary boton" (click)="cero()">0</button>
+
+                <button type="button" id="C" name="C" class="btn btn-danger boton funcion" (click)="borrarC()">C</button>
+                <button type="button" id="CE" name="CE" class="btn btn-danger boton funcion" (click)="borrarCE()">CE</button>
+
+                <button type="button" id="igual" name="igual" class="btn btn-warning boton funcion" (click)="igual()">=</button>
+                <button type="button" id="mas" name="mas" class="btn btn-success boton funcion" (click)="mas()">+</button>
+                <button type="button" id="menos" name="menos" class="btn btn-success boton funcion" (click)="menos()">-</button>
+                <button type="button" id="por" name="por" class="btn btn-success boton funcion" (click)="por()">*</button>
+                <button type="button" id="entre" name="entre" class="btn btn-success boton funcion" (click)="entre()">/</button>
+
+            </div>
+        </div>
+    </div>
+</div>
